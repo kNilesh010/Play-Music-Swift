@@ -13,6 +13,8 @@
 		6721FD0D2786104F00239A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6721FD0B2786104F00239A08 /* Main.storyboard */; };
 		6721FD0F2786105000239A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6721FD0E2786105000239A08 /* Assets.xcassets */; };
 		6721FD122786105000239A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6721FD102786105000239A08 /* LaunchScreen.storyboard */; };
+		6721FD1C2786226000239A08 /* mixkit-689.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6721FD1B2786226000239A08 /* mixkit-689.wav */; };
+		6721FD1E27862F0200239A08 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6721FD1D27862F0200239A08 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6721FD0E2786105000239A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6721FD112786105000239A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6721FD132786105000239A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6721FD1B2786226000239A08 /* mixkit-689.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-689.wav"; sourceTree = "<group>"; };
+		6721FD1D27862F0200239A08 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		6721FD042786104F00239A08 /* PlayMusic */ = {
 			isa = PBXGroup;
 			children = (
+				6721FD1B2786226000239A08 /* mixkit-689.wav */,
 				6721FD052786104F00239A08 /* AppDelegate.swift */,
 				6721FD072786104F00239A08 /* SceneDelegate.swift */,
+				6721FD1D27862F0200239A08 /* PlayerViewController.swift */,
 				6721FD092786104F00239A08 /* ViewController.swift */,
 				6721FD0B2786104F00239A08 /* Main.storyboard */,
 				6721FD0E2786105000239A08 /* Assets.xcassets */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6721FD1C2786226000239A08 /* mixkit-689.wav in Resources */,
 				6721FD122786105000239A08 /* LaunchScreen.storyboard in Resources */,
 				6721FD0F2786105000239A08 /* Assets.xcassets in Resources */,
 				6721FD0D2786104F00239A08 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6721FD0A2786104F00239A08 /* ViewController.swift in Sources */,
+				6721FD1E27862F0200239A08 /* PlayerViewController.swift in Sources */,
 				6721FD062786104F00239A08 /* AppDelegate.swift in Sources */,
 				6721FD082786104F00239A08 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,6 +311,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nilesh.PlayMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
